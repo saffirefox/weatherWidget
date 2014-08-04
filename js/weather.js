@@ -84,5 +84,5 @@ $(function() {
 	weather.listenCity();
 	weather.listenFormat();
 
-	weather.getWeather(5419384);
+	weather.getWeather(5577147);
 });
