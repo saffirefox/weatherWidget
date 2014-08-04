@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Weather</title>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<script src="js/weather.js"></script>
+<link rel="stylesheet" href="css/weather.css">
+</head>
+<body>
+	<nav class="navbar navbar-default" role="navigation">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Weather</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse controls" id="bs-example-navbar-collapse-1">
+	        	          
+	          <div class="nav navbar-nav navbar-right">
+	          	<select name="cityList" id="cityList">
+      	          	<option value="5419384">Denver</option>
+      	          	<option value="5391959">San Francisco</option>
+      	          	<option value="5128581">New York</option>
+      	          </select>
+      	          <span class="format">
+      	          	<label for="tempFormat"><input type="radio" name="tempFormat" id="tempFormat" value="F" checked> F&deg;</label>
+      	          	<label for="tempFormat"><input type="radio" name="tempFormat" id="tempFormat" value="C"> C&deg;</label>
+      	          </span>
+	        </div>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-md-offset-3">
+				 <div class="well">
+				 	<span class="cityName">
+				 		Denver, CO
+				 	</span>
+				 	<span class="temp">
+				 		
+				 	</span>
+				 	<span class="icon">
+				 		<img src="" alt="weather icon to match conditions">
+				 	</span>
+				 </div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
